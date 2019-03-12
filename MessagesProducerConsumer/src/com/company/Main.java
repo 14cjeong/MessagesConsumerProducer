@@ -179,3 +179,5 @@ class Reader implements Runnable {
 //ex. myObject 1 = myObject 2.
 //Thread can't be suspended in the middle of executing that statement
 
+//You can only call wait inside of a synchronized method
+
